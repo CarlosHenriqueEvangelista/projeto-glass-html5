@@ -1,0 +1,110 @@
+ul#AlbumDeFotos {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;  
+    overflow: hidden; 
+    list-style: none; 
+}
+
+ul#AlbumDeFotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 5px solid white ;
+    margin: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    background-color: white;
+}
+
+ul#AlbumDeFotos li#Foto01 {
+    background: url("_imagens/galeria-01.jpg") no-repeat;
+    background-position: 50% 50%;
+        background-size: 400px 400px;
+        background-color: white;
+}
+
+ul#AlbumDeFotos li#Foto02 {
+    background: url("_imagens/galeria-02.jpg") no-repeat;
+    background-position: 50% 50%;
+        background-size: 400px 400px;
+        background-color: white;
+}
+
+ul#AlbumDeFotos li#Foto03 {
+    background: url("_imagens/galeria-03.jpg") no-repeat;
+    background-position: 50% 50%;
+        background-size: 400px 400px;
+         background-color: white;
+}
+
+ul#AlbumDeFotos li#Foto04 {
+    background: url("_imagens/galeria-04.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#AlbumDeFotos li#Foto05 {
+    background: url("_imagens/galeria-05.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#AlbumDeFotos li#Foto06 {
+    background: url("_imagens/galeria-06.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#AlbumDeFotos li#Foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#AlbumDeFotos li#Foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#AlbumDeFotos li#Foto03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#AlbumDeFotos li#Foto04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#AlbumDeFotos li#Foto05:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#AlbumDeFotos li#Foto06:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+ul#AlbumDeFotos li span{
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.4);
+    line-height: 370px;
+    padding: 5px;
+    font-size: 13px;
+}
+
+ul#AlbumDeFotos li:hover span {
+    opacity: 1;
+}
+
+ul#AlbumDeFotos li:hover {
+    transform: scale(1.5);
+    transition: all .4s ease-in;
+}
+ 
